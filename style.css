@@ -1,67 +1,84 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(226, 211, 211);
 }
-body{
-    background: url(./midia/deserto\ preto\ wallpaper\ para\ pc.jpg) center center no-repeat;
+
+body {
+    background: url(./midia/imgur_com.gif) center center no-repeat;
     background-size: cover;
     height: 900px;
 }
-h1{
+
+h1 {
     position: absolute;
     left: 50%;
     top: 25%;
-    transform: translate(-50%,-80%);
+    transform: translate(-50%, -80%);
 }
-main{
+
+main {
     width: 730px;
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     display: flex;
 }
-video{
+
+video {
     border-radius: 10px;
+    border: 1px solid rgb(54, 52, 52);
 }
-.conteudo{
+
+.conteudo {
     margin-left: 30px;
     margin-top: 50px;
     text-align: justify;
 }
-@media (max-width: 1400px){
-    body{
+
+@media (max-width: 1400px) {
+    body {
         height: 600px;
     }
 }
-@media (max-width: 500px){
-    body{
+
+@media (max-width: 500px) {
+    body {
         height: 810px;
     }
-    h1{
+
+    h1 {
         position: absolute;
         left: 50%;
         top: 15%;
-        transform: translate(-50%,-80%);
+        transform: translate(-50%, -80%);
     }
-    main{
+
+    main {
         display: block;
         width: 330px;
     }
-    .video{
+
+    .video {
         margin: 0;
     }
-    video{
+
+    video {
         width: 330px;
         margin-right: 30px;
+        
     }
 }
-button{
+
+button {
     margin-top: 30px;
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(41, 38, 38);
     padding: 5px;
+    border: none;
+    cursor: pointer;
+
 }
